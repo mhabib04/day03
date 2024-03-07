@@ -27,7 +27,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         btnMoveWithObj.setOnClickListener(this);
         btnImplicit.setOnClickListener(this);
     }
-
     @Override
     public void onClick(View v) {
         if (v.getId() == R.id.btnMove){
